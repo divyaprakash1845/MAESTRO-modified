@@ -5,8 +5,6 @@ pip install torch pandas numpy scipy mne
 
 ```
 
-## 🚀 Execution Steps
-
 ### 1. EEG Artifact Removal (MATLAB)
 
 Cleans raw `.edf` files using ICA and selects the largest recording automatically.
