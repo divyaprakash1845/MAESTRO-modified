@@ -1,21 +1,19 @@
+* Clone the repository
+```bash
+# Clone the repository
+git clone https://github.com/divyaprakash1845/MAESTRO-modified
+cd MAESTRO-modified
+
+# Install libraries
+pip install torch pandas numpy scipy mne
+
+```
 ### 1. EEG Artifact Removal (MATLAB)
 
 Cleans raw `.edf` files using ICA and selects the largest recording automatically.
 
 * **Command:** Open and Run `clean_raw_eeg.m` in MATLAB.
 * **Note:** Update the `eegpath` (EEGLAB folder) and `rootDir` (your `raw_data` folder) at the top of the script before running.
-* Clone the repository
-```bash
-git clone https://github.com/divyaprakash1845/MAESTRO-modified
-%cd MAESTRO-modified
-
-```
-Before running the Python scripts, install the required dependencies:
-
-```bash
-pip install torch pandas numpy scipy mne
-
-```
 
 ### 2. Multi-Modal Fusion (Python)
 
