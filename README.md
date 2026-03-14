@@ -1,10 +1,3 @@
-Before running the Python scripts, install the required dependencies:
-
-```bash
-pip install torch pandas numpy scipy mne
-
-```
-
 ### 1. EEG Artifact Removal (MATLAB)
 
 Cleans raw `.edf` files using ICA and selects the largest recording automatically.
@@ -15,6 +8,12 @@ Cleans raw `.edf` files using ICA and selects the largest recording automaticall
 ```bash
 git clone https://github.com/divyaprakash1845/MAESTRO-modified
 %cd MAESTRO-modified
+
+```
+Before running the Python scripts, install the required dependencies:
+
+```bash
+pip install torch pandas numpy scipy mne
 
 ```
 
