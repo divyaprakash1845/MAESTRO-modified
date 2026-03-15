@@ -1,4 +1,3 @@
-%%writefile preprocess.py
 import os
 import glob
 import torch
