@@ -1,4 +1,3 @@
-%%writefile dataset.py
 import os
 import glob
 import torch
